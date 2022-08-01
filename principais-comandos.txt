@@ -1,0 +1,6 @@
+Site 1:
+https://www.freecodecamp.org/portuguese/news/10-comandos-do-git-que-todo-desenvolvedor-deveria-conhecer/
+
+Site 2: 
+https://www.computersciencemaster.com.br/git-e-github-introducao-ao-versionamento-de-codigo/
+
