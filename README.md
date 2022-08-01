@@ -10,49 +10,23 @@ $ git status = fornece todas as informacoes sobre a branch atual.
   Aqui podemos ver que um arquivo de texto foi criado, mas ainda nao foi atualizado na branch.
   
 $ git add . = inclui as alterações de um ou vários arquivos em nosso próximo commit.
-  O arquivo txt foi incluido na fase de stage. Aguardando o commit.
+  A alteracao foi incluida na fase de stage. Aguardando o commit.
   
 $ git commit -m "mensagem do commit" = salva as alterações no espaço de trabalho local, com comentario.
 
-Depois de criar o repositório remoto, fizemos a ligação com o repositório local usando os seguintes comandos:
-
-$ git remote add origin <url-repositório-remoto> = informar a pasta remota.
+$ git remote add origin [url do repositório remoto] = informar a pasta remota.
 
 $ git remote -v = visualizar o repositório remoto.
 
 $ git push -u origin main = publicar as alterações no repositório remoto.
 
-Criei este README.md para simular uma alteracao feita por outro desenvolvedor. Apos isso, voltando para o repositorio local, os seguntes comandos foram usados:
-
 $ git pull = puxar as alterações feitas no repositorio remoto para o repositorio local.
 
-$ git checkout -b <nome-da-branch> = criar uma nova branch.
+$ git checkout -b [nome da nova branch] = criar uma nova branch.
 
-Criei um novo arquivo dentro desta nova branch e usei os comandos:
+$ git checkout [nome da branch] = para acessar uma branch ja existente.
 
-$ git status
-
-$ git add .
-
-$ git commit -m "mensagem do commit"
-
-$ git push -u origin <nome-da-branch>
-
-$ git checkout main 
-
-$ git checkout -b <nome-da-branch>
-
-Readme atualizado no repositorio local com essas informacoes. 
-
-Para atualizar o repositorio remoto usei os mesmos comandos acima, porem em uma nova branch. 
-
-$ git status
-
-$ git add .
-
-$ git commit -m "mensagem do commit"
-
-$ git push -u origin <nome-da-branch>
+$ git merge [nome da branch que deseja unificar] = Fazer a mesclagem com a outra branch
 
  
 
