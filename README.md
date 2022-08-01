@@ -22,8 +22,39 @@ $ git remote -v = visualizar o repositório remoto.
 
 $ git push -u origin main = publicar as alterações no repositório remoto.
 
-Criei este README.md para simular uma alteracao feita por outro desenvolvedor. 
+Criei este README.md para simular uma alteracao feita por outro desenvolvedor. Apos isso, voltando para o repositorio local, os seguntes comandos foram usados:
 
+$ git pull = puxar as alterações feitas no repositorio remoto para o repositorio local.
+
+$ git checkout -b <nome-da-branch> = criar uma nova branch.
+
+Criei um novo arquivo dentro desta nova branch e usei os comandos:
+
+$ git status
+
+$ git add .
+
+$ git commit -m "mensagem do commit"
+
+$ git push -u origin <nome-da-branch>
+
+$ git checkout main 
+
+$ git checkout -b <nome-da-branch>
+
+Readme atualizado no repositorio local com essas informacoes. 
+
+Para atualizar o repositorio remoto usei os mesmos comandos acima, porem em uma nova branch. 
+
+$ git status
+
+$ git add .
+
+$ git commit -m "mensagem do commit"
+
+$ git push -u origin <nome-da-branch>
+
+ 
 
 
 
